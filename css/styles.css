@@ -1,0 +1,23 @@
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    box-sizing: border-box;   
+}
+
+.gallery-item {
+    max-width: calc((100% - 48px) /3);
+    height: 100%;
+    list-style-type: none;
+}
+
+.gallery-item:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
